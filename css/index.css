@@ -318,3 +318,8 @@ header{
     margin-bottom: 0.5em;
     font-weight: 400;
  }
+
+ .intro__subtitle{
+    font-weight: 200;
+    color: var(--clr-soft-light);
+ }
