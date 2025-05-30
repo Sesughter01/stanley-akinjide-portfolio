@@ -20,6 +20,7 @@
      /* --clr-dark:#000000ef;
      --clr-accent:#39cf96; */
      --clr-black:#0e0e0f;
+     --clr-ptext:#EBEBEB;
 
      /* Gradient colors */
 
@@ -34,7 +35,8 @@
      /* Font Sizes */
      --fs-h1:3rem;
      --fs-h2:2.25rem;
-     --fs-h3:1.25rem;
+     --fs-h3:4.5rem;
+     /* --fs-h3:1.25rem; */
      --fs-body:1rem;
      
      /* Box Shadows */
@@ -49,6 +51,7 @@
      --fs-h1:4.5rem;
      --fs-h2:3.75rem;
      --fs-h3:1.5rem;
+     --fs-h3:2rem;
      --fs-body:1.125rem;
 
     }
@@ -321,5 +324,58 @@ header{
 
  .intro__subtitle{
     font-weight: 200;
+    font-size: 3rem;
     color: var(--clr-soft-light);
+    position: relative;
+     max-width: 576px;
+     margin: auto;
+     /* padding-left: 20px; */
  }
+ .intro_text{
+    font-size:16px;
+    line-height: 32px;
+    font-weight: var(--fw-light);
+    color: var(--clr-ptext);
+    max-width: 722px;
+    text-align: justify;
+    margin: auto;
+    padding-top:64px;
+ }
+ .intro_span{
+    text-decoration: line-through; 
+    color:#807E7E;
+ }
+ .intro__subtitle::before{
+    content:"";
+    background-image:url("/imgs/test.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:150px;
+    display: block;
+    height:150px;
+    position:absolute;
+    top: -30px;
+    /* right:0; */
+    left:-20px;
+
+ }
+ .intro__subtitle::after{
+    content:"";
+    background-image: url(/imgs/profile.png);
+     background-repeat:no-repeat;
+    background-size:contain;
+    width:100px;
+    display: block;
+    height:100px;
+    position:absolute;
+    top:0;
+    right: -70px;
+ }
+
+
+
+
+
+
+
+ 
