@@ -306,4 +306,14 @@ header{
 }
 
 
- 
+ /* SECTION INTRO */
+ .intro__content{
+    max-width: 916px;
+    margin: auto;
+    text-align: center;
+  
+ }
+
+ .intro__title{
+    margin-bottom: 0.5em;
+ }
