@@ -311,13 +311,14 @@ header{
 
  /* SECTION INTRO */
  .intro__content{
-    max-width: 916px;
+    /* max-width: 916px; */
     margin: auto;
     text-align: center;
   
  }
 
  .intro__title{
+    font-size: 5rem;
     margin-bottom: 0.5em;
     font-weight: 400;
  }
@@ -332,11 +333,11 @@ header{
      /* padding-left: 20px; */
  }
  .intro_text{
-    font-size:16px;
+    font-size:12px;
     line-height: 32px;
     font-weight: var(--fw-light);
     color: var(--clr-ptext);
-    max-width: 722px;
+    max-width: 600px;
     text-align: justify;
     margin: auto;
     padding-top:64px;
