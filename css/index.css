@@ -77,9 +77,9 @@ section{
 }
 
 img{
-    display: block;
+    /* display: block; */
     max-width: 100%;
-    margin: auto;
+    /* margin: auto; */
 }
 
  strong{
@@ -348,7 +348,7 @@ header{
  }
  .intro__subtitle::before{
     content:"";
-    background-image:url("/imgs/test.png");
+    background-image:url("/imgs/icons/test.png");
     background-repeat:no-repeat;
     background-size:contain;
     width:150px;
@@ -365,12 +365,17 @@ header{
     background-image: url(/imgs/profile.png);
      background-repeat:no-repeat;
     background-size:contain;
-    width:100px;
+    width:85px;
     display: block;
-    height:100px;
+    height:85px;
     position:absolute;
     top:0;
     right: -70px;
+ }
+ .sub_section{
+    margin: auto;
+    max-width:358px;
+    height:94px;
  }
 
 
