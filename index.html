@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="/css/index.css">
     <title>Stanley Akinjide | Home</title>
 </head>
@@ -18,7 +20,6 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">About</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Resume</a></li>
@@ -75,12 +76,12 @@
 
                </div>
                <div class="expertise">
-                     <div class="expertise__item align-items-center display-flex width-card-320 fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
+                     <div class="expertise__item align-items-center display-flex  fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
                           <img src="/imgs/icons/product.svg fill.png" alt="UX Design Icon">
                           <h4 class="fs-title margin-block-0">Product Design</h4>
                           <p class="fs-small text-center">Crafted intuitive interfaces that effortlessly connect users to products, enhancing usability and engagement.</p>
                      </div>
-                     <div class="expertise__item align-items-center display-flex width-card-320 fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
+                     <div class="expertise__item align-items-center display-flex fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
                           <img src="/imgs/icons/component2.png" alt="UI Design Icon">
                           <h4 class="fs-title margin-block-0">Ui/Ux Design</h4>
                           <p class="fs-small text-center">
@@ -89,14 +90,14 @@
                              experiences.
                            </p>
                      </div>
-                     <div class="expertise__item align-items-center display-flex width-card-320 fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
+                     <div class="expertise__item align-items-center display-flex  fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
                           <img src="/imgs/icons/component3.png" alt="Prototyping Icon">
                           <h4 class="fs-title margin-block-0">Logo Design</h4>
                           <p class="fs-small text-center">
-                            Created impactful logos that instantly convey a brand’s essence and identity.
+                            Created impactful logos that instantly and succintly conveys a brand’s essence and identity.
                           </p>
                      </div>
-                     <div class="expertise__item align-items-center display-flex width-card-320 fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
+                     <div class="expertise__item align-items-center display-flex  fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
                           <img src="/imgs/icons/component4.png" alt="Prototyping Icon">
                           <h4 class="fs-title margin-block-0">Brand Design</h4>
                           <p class="fs-small text-center">
@@ -104,7 +105,7 @@
 
                           </p>
                      </div>
-                     <div class="expertise__item align-items-center display-flex width-card-320 fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
+                     <div class="expertise__item align-items-center display-flex  fld-col jstfy-around gap-05em  bg-color-gradient-2 padding-1em border-radius-10 border-gradient-1">
                           <img src="/imgs/icons/component5.png" alt="Prototyping Icon">
                           <h4 class="fs-title margin-block-0">Brochure Design</h4>
                           <p class="fs-small text-center">
@@ -251,6 +252,10 @@
         <p class="section__about--specialize">I specialise in designing intuitive interfaces and efficient systems, creating engaging experiences for online platform.My focus is on seamless functionality and memorable user interactions.</p>
     </section>
     <hr>
+
+     <button id ="scrollToTopBtn" onclick ="scrollToTop()" type ="button">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
     <footer class="display-flex padding-1em jstfy-btw align-items-center fld-col-md fld-col">
         <div>
               <a href="#">Nuriel.Design</a>
@@ -272,5 +277,6 @@
 
         </div>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
