@@ -776,6 +776,7 @@ align-items: center;
     grid-area: button-text;
     margin: auto;
     display: flex; 
+    align-items: center;
     gap: 3em;
     justify-content:center;
 
