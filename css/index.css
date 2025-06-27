@@ -216,6 +216,11 @@ a{
 
 /* CUSTOM CLASSES */
 
+hr{
+     border: 0.2px solid var(--clr-soft-light-grey);
+     /* background-color: var(--clr-soft-light-grey); */
+}
+
 .border-light{
     border: 1px solid var(--clr-soft-light-grey);
     /* border-image: var(--clr-gradient-2); */
