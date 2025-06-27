@@ -217,7 +217,8 @@ a{
 /* CUSTOM CLASSES */
 
 hr{
-     border: 0.2px solid var(--clr-soft-light-grey);
+     border: 0.1px solid var(--clr-soft-light-grey);
+     margin-inline:2rem;
      /* background-color: var(--clr-soft-light-grey); */
 }
 
