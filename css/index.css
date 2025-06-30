@@ -417,6 +417,16 @@ header{
     display:flex;
     justify-content: space-between;
     padding: 1rem;
+
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+    z-index: 3;
+}
+
+body:hover header{
+     transform: translateY(0%);
+      opacity: 1;
 }
 .logo{
     max-width: 100px;
@@ -554,17 +564,31 @@ header{
     font-size: clamp(2rem, 10vw, 6rem);
     margin-bottom: 0.5em;
     font-weight: 400;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 1s ease, opacity 1s ease;
+    z-index: 3;
+ }
+ body:hover .intro__title{
+     transform: translateY(0);
+      opacity: 1;
  }
 
  .intro__subtitle{
     font-weight: 200;
-    /* font-size: 3rem; */
     font-size: clamp(1rem, 5vw, 3rem);
     color: var(--clr-soft-light);
     position: relative;
-     max-width: 576px;
-     margin: auto;
-     /* padding-left: 20px; */
+    max-width: 576px;
+    margin: auto;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 1s ease, opacity 1s ease;
+    z-index: 3; 
+ }
+ body:hover .intro__subtitle{
+     transform: translateY(0);
+      opacity: 1;
  }
  .intro_text{
     font-size:11px;
@@ -615,7 +639,7 @@ header{
   z-index: 1;
 }
 
-
+/* 
  .intro__subtitle::after{
     content:"";
     display: block;
@@ -627,6 +651,20 @@ header{
     position:absolute;
     top:0;
     right: clamp(-2.5em, -3em, -5em);
+    opacity: 1;
+ } */
+ .profile-img-2{
+   
+    display: block;
+    /* background-image: url("../imgs/profile.png"); */
+     /* background-repeat:no-repeat; */
+    /* background-size:contain; */
+    width:clamp(2em, 3em, 5em);
+    height:clamp(2em, 3em, 5em);
+    position:absolute;
+    top:0;
+    right: clamp(-2.5em, -3em, -5em);
+   
  }
 
  

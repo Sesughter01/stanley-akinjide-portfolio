@@ -14,7 +14,32 @@
             position: relative;
             display: inline-block;
         }
-        .mouse-icon::after{
+        .mouse-icon-no-hover{
+             
+            position: absolute;
+            left:58%;
+            top:18%;
+             max-width: 6%;
+             /* min-height: 5%; */
+     
+        }
+      @media (min-width:800px){
+              .mouse-icon-no-hover{
+                 /* left:58%; */
+                 top:20%;
+                /* max-width: 6%; */
+        }
+      }
+      @media (min-width:990px){
+               .mouse-icon-no-hover{
+                 left:57.7%;
+                 /* top:20%; */
+                /* max-width: 6%; */
+        }
+    }
+      
+
+        /* .mouse-icon::after{
              content: "";
              background-image: url('./imgs/icons/glass.png');
              background-size: cover;
@@ -23,7 +48,7 @@
              height: 50%;
              top: .1em;
              left: .2em;
-        }
+        } */
     </style>
 </head>
 <body>
@@ -50,11 +75,13 @@
 
      <section class="intro">
         <div class="intro__content">
+            <img class="mouse-icon-no-hover" src="./imgs/icons/glass.png" alt="">
             <h1 class="intro__title">WEB & M<span class="mouse-icon">O</span>BILE</h1>
             <div class="intro_design">
                  <span class="bg-icon"></span>
                  <span class="fg-icon"></span>
                  <h3 class="intro__subtitle">DESIGN EXPERT</h3>
+                 <img class="profile-img-2" src="./imgs/profile.png" alt="">
             </div>
              
             <p class="intro_text">Hey there! i'm Stanley, a product designer passionate about crafting seamless web and mobile experience for FinTech, eCommerce, and SaaS. My goal? Designs that don't just look great but also convert and connect with users. Currently based in <span class="intro_span">Lagos, Dubai,</span> Algarve, Portugal.</p>
