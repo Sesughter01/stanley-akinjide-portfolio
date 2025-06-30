@@ -341,6 +341,9 @@ hr{
 .margin-150{
     margin: 1.5em;
 }
+.margin-05{
+    margin: .5em;
+}
 
 .fs-reg{
     font-size: 16px;
@@ -663,7 +666,7 @@ body:hover header{
     height:clamp(2em, 3em, 5em);
     position:absolute;
     top:0;
-    right: clamp(-2.5em, -3em, -5em);
+    right: clamp(-4.5em, -5em, -6em);
    
  }
 
