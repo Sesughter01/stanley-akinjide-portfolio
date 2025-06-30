@@ -421,16 +421,16 @@ header{
     justify-content: space-between;
     padding: 1rem;
 
-    transform: translateY(-100%);
+    /* transform: translateY(-100%);
     opacity: 0;
     transition: transform 1s ease, opacity 1s ease;
-    z-index: 3;
+    z-index: 3; */
 }
 
-body:hover header{
+/* body:hover header{
      transform: translateY(0%);
       opacity: 1;
-}
+} */
 .logo{
     max-width: 100px;
 }
@@ -439,7 +439,7 @@ body:hover header{
 
 .nav{
     position: fixed;
-    width: 100vw;
+    /* width: 100vw; */
     background: var(--clr-light);
     color: var(--clr-black);
     top: 0;
