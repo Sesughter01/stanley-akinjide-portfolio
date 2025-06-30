@@ -586,7 +586,7 @@ body:hover header{
     transition: transform 1s ease, opacity 1s ease;
     z-index: 3; 
  }
- body:hover .intro__subtitle{
+ section:hover .intro__subtitle{
      transform: translateY(0);
       opacity: 1;
  }
