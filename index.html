@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="./css/index.css">
     <title>Stanley Akinjide | Home</title>
+
+    <style>
+
+        .mouse-icon{
+            position: relative;
+            display: inline-block;
+        }
+        .mouse-icon::after{
+             content: "";
+             background-image: url('./imgs/icons/glass.png');
+             background-size: cover;
+             position: absolute;
+             width: 50%;
+             height: 50%;
+             top: .1em;
+             left: .2em;
+        }
+    </style>
 </head>
 <body>
      <!-- Header Section -->
@@ -32,7 +50,7 @@
 
      <section class="intro">
         <div class="intro__content">
-            <h1 class="intro__title">WEB & MOBILE</h1>
+            <h1 class="intro__title">WEB & M<span class="mouse-icon">O</span>BILE</h1>
             <div class="intro_design">
                  <span class="bg-icon"></span>
                  <span class="fg-icon"></span>
