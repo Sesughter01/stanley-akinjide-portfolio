@@ -249,7 +249,7 @@ hr{
     width: 100%;
 }
 .width-card-540{
-    width: 540px;
+    width: 440px;
     /* width: 100%; */
 }
 .height-150{
@@ -589,7 +589,7 @@ header{
     transition: transform 1s ease, opacity 1s ease;
     z-index: 3; 
  }
- section:hover .intro__subtitle{
+ body:hover .intro__subtitle{
      transform: translateY(0);
       opacity: 1;
  }
@@ -781,11 +781,12 @@ align-items: center;
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     max-width: 640px;
 }
 .branding{
     background-image: url("../imgs/branding.png");
+
     
 
 }
